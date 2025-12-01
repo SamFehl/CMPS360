@@ -1,0 +1,66 @@
+Assignment Title: Developing a Basic Spring Boot RESTful Application
+Objective
+By the end of this assignment, students will:
+
+Understand how to set up a Spring Boot project using Maven.
+Create a basic RESTful API with Spring Boot.
+Resolve potential issues during development, such as dependency configuration or execution errors.
+Task Description
+Scenario
+You have been hired by a startup company to develop a simple Spring Boot application that acts as a RESTful API to display messages. The company does not require a database connection at this stage. Your task is to create an application with endpoints that return the following:
+
+A welcome message (e.g., Welcome to Spring Boot!).
+A dynamic message where the user can pass their name as a query parameter (e.g., Hello, [name]!).
+Requirements
+Project Setup:
+
+Use Maven to set up the project.
+Add the necessary dependencies for a Spring Boot web application (spring-boot-starter-web).
+Ensure the application is runnable using mvn spring-boot:run.
+Endpoints:
+
+Create a GET endpoint /welcome that returns a static welcome message.
+Create a GET endpoint /greet that accepts a query parameter name and returns a personalized greeting. If the name is not provided, return a default message.
+Examples:
+
+/welcome → Response: "Welcome to Spring Boot!"
+/greet?name=Alice → Response: "Hello, Alice!"
+/greet → Response: "Hello, Guest!"
+Error Handling:
+
+Handle invalid requests gracefully using appropriate HTTP status codes (e.g., 400 Bad Request for missing required parameters).
+Documentation:
+
+Create a README.md file with instructions on:
+How to run the application.
+Sample requests and responses.
+Instructions
+Step 1: Create the Project
+
+Use Spring InitializrLinks to an external site. or manually set up the Maven pom.xml.
+Ensure the project runs without errors.
+Step 2: Implement the Application
+
+Write the main application class with @SpringBootApplication.
+Create a controller class (e.g., HelloController) with the required endpoints.
+Step 4: Submit Your Work
+
+Include all source files in GitHub
+Provide the README.md with the instructions.
+Include screenshots of successful requests and responses for both endpoints.
+Evaluation Criteria
+Criteria	Points
+Proper Maven Project Setup	10
+Functionality of /welcome	10
+Functionality of /greet	15
+Error Handling	10
+Code Clarity (readability, comments)	5
+Documentation (README.md)	10
+Testing (Screenshots & Results)	10
+Hints and Tips
+Use @RestController to create RESTful endpoints.
+Use @RequestParam to capture query parameters in the /greet endpoint.
+If you encounter the zsh: command not found: mvn error, ensure Maven is properly installed and added to your PATH.
+Submission Deadline
+Submit your assignment by: Extended a week: Sunday, February 2, 2025 @ 11:59 PM EST
+Submit via: GitHub Code, Video walking through (Only ACCEPT LINKS, NO VIDEO upload directly, else it will be a 0 for not following directions)
