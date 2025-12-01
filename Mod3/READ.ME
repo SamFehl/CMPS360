@@ -1,0 +1,186 @@
+Below is a **complete, polished, professional README.md** tailored exactly for your assignment.
+You can copy/paste this directly into your GitHub repository as **README.md**.
+
+---
+
+# 📘 Spring Boot RESTful API – Assignment Submission
+
+## 📌 Overview
+
+This project is a simple **Spring Boot RESTful application** developed as part of the assignment.
+The application provides two GET endpoints:
+
+* `/welcome` → returns a static welcome message
+* `/greet?name=YourName` → returns a personalized greeting
+
+This application **does not require a database**, and therefore uses only Spring Boot Web dependencies.
+
+---
+
+## 🚀 Technologies Used
+
+* **Java 17**
+* **Spring Boot 3.x**
+* **Maven**
+* **Spring Web (REST APIs)**
+
+---
+
+## 📁 Project Structure
+
+```
+springbootrestdemo/
+ └── src/
+      └── main/
+           └── java/com/example/springbootrestdemo/
+                ├── SpringBootRestDemoApplication.java
+                └── HelloController.java
+ └── pom.xml
+ └── README.md
+```
+
+---
+
+## ▶️ How to Run the Application
+
+### **Option 1 — Maven Wrapper (recommended)**
+
+```
+./mvnw spring-boot:run
+```
+
+### **Option 2 — Maven (if installed globally)**
+
+```
+mvn spring-boot:run
+```
+
+Once the application starts, it will run on:
+
+```
+http://localhost:8080
+```
+
+---
+
+## 📡 API Endpoints
+
+### ✔ **1. GET `/welcome`**
+
+Returns a static welcome message.
+
+**Example Request:**
+
+```
+http://localhost:8080/welcome
+```
+
+**Response:**
+
+```
+Welcome to Spring Boot!
+```
+
+---
+
+### ✔ **2. GET `/greet`**
+
+Returns a greeting. If a `name` parameter is provided, it personalizes the message.
+
+#### With name:
+
+**Example Request:**
+
+```
+http://localhost:8080/greet?name=Alice
+```
+
+**Response:**
+
+```
+Hello, Alice!
+```
+
+#### Without name:
+
+**Example Request:**
+
+```
+http://localhost:8080/greet
+```
+
+**Response:**
+
+```
+Hello, Guest!
+```
+
+---
+
+## ⚠️ Error Handling
+
+The API returns appropriate responses for invalid or missing parameters.
+
+Example (custom error endpoint used for demonstration only):
+
+```
+/badrequest
+```
+
+Response:
+
+```
+400 Bad Request
+Invalid request parameters
+```
+
+---
+
+## 🧪 Testing Instructions
+
+1. Run the application
+2. Open a web browser or Postman
+3. Test the endpoints:
+
+   * `http://localhost:8080/welcome`
+   * `http://localhost:8080/greet`
+   * `http://localhost:8080/greet?name=YourName`
+
+---
+
+## 📷 Screenshots (Required for Submission)
+
+**Include the following screenshots in your GitHub repository:**
+
+* Browser output of `/welcome`
+* Browser output of `/greet`
+* Browser output of `/greet?name=YourName`
+
+---
+
+## 📝 Notes
+
+* No database is required for this assignment.
+* Only the following dependencies are used:
+
+  ```xml
+  <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+  </dependency>
+  ```
+
+---
+
+## 👨‍💻 Author
+
+**Samuel Fehl**
+CMPS 360 — Fall 2025
+Spring Boot REST API Assignment
+
+---
+
+If you'd like, I can also generate:
+✅ A GitHub `LICENSE` file
+✅ A `.gitignore` specifically for Spring Boot projects
+Just let me know!
