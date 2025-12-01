@@ -1,0 +1,76 @@
+Getting Started with GitHub
+
+Create a GitHub repository called "CMPS360", Create a folder called "Module 1"
+
+1. Push your source code into the main or master branch.
+
+2. Add @jeffreyjseamanppu as a contributor to github
+
+Objective:
+
+To create a Java program that:
+
+Collects multiple pieces of information from a user using the Scanner class.
+Performs basic calculations based on the input.
+Displays the results in a well-formatted output.
+Problem Statement:
+Write a program named StudentInformationSystem that performs the following tasks:
+
+Input Collection:
+
+Ask the user to enter their name (String).
+Ask the user to enter their age (integer).
+Ask the user to enter their GPA (double, between 0.0 and 4.0).
+Ask the user to enter the number of completed credits (integer).
+Ask the user how many hours per week they study for each subject (assume 5 subjects).
+Data Processing:
+
+Calculate the average hours spent studying per day (assuming 7 days a week).
+Estimate the total hours spent studying per semester (assuming 16 weeks in a semester).
+Calculate the remaining credits required to graduate (assume 120 credits are needed for graduation).
+Validation:
+
+Validate that the GPA entered is between 0.0 and 4.0. If not, display an error message and prompt the user to enter it again.
+Validate that age is a positive integer. If not, display an error message and prompt again.
+Output:
+
+Display the collected information in a formatted table.
+Display the calculated results (average study hours per day, total study hours per semester, and remaining credits).
+Sample Output:
+
+Welcome to the Student Information System!
+
+Enter your name: Mike Tomlin
+Enter your age: -20
+Invalid age. Please enter a positive integer.
+Enter your age: 20
+Enter your GPA (0.0 - 4.0): 4.5
+Invalid GPA. Please enter a value between 0.0 and 4.0.
+Enter your GPA (0.0 - 4.0): 3.75
+Enter the number of completed credits: 90
+Enter the hours you study per week for subject 1: 10
+Enter the hours you study per week for subject 2: 8
+Enter the hours you study per week for subject 3: 7
+Enter the hours you study per week for subject 4: 6
+Enter the hours you study per week for subject 5: 9
+
+--- Student Summary ---
+Name: Mike Tomlin
+Age: 20
+GPA: 3.75
+Completed Credits: 90
+Remaining Credits: 30
+
+Average Study Hours Per Day: 6.43
+Total Study Hours Per Semester: 514
+
+Hints for Implementation:
+Use nextLine() for the name to handle spaces, and nextInt() / nextDouble() for numeric inputs.
+Use a loop to ensure valid input for GPA and age.
+Use an array or loop to gather study hours for each subject.
+Perform calculations using appropriate formulas.
+Grading Criteria:
+Correctness (50%): The program meets the requirements and produces accurate results.
+Input Validation (20%): Proper error handling for invalid inputs.
+Code Quality (15%): The code is well-structured, uses meaningful variable names, and avoids redundancy.
+User Experience (15%): The program is user-friendly and provides clear prompts and output formatting.
