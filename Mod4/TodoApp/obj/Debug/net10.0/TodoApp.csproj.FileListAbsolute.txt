@@ -1,0 +1,14 @@
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\bin\Debug\net10.0\TodoApp.exe
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\bin\Debug\net10.0\TodoApp.deps.json
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\bin\Debug\net10.0\TodoApp.runtimeconfig.json
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\bin\Debug\net10.0\TodoApp.dll
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\bin\Debug\net10.0\TodoApp.pdb
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\obj\Debug\net10.0\TodoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\obj\Debug\net10.0\TodoApp.AssemblyInfoInputs.cache
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\obj\Debug\net10.0\TodoApp.AssemblyInfo.cs
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\obj\Debug\net10.0\TodoApp.csproj.CoreCompileInputs.cache
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\obj\Debug\net10.0\TodoApp.dll
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\obj\Debug\net10.0\refint\TodoApp.dll
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\obj\Debug\net10.0\TodoApp.pdb
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\obj\Debug\net10.0\TodoApp.genruntimeconfig.cache
+C:\Users\sjfeh\Documents\School\Fall 2025\CMPS 360\survey\Mod4\TodoApp\obj\Debug\net10.0\ref\TodoApp.dll
