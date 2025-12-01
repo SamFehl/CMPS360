@@ -1,0 +1,147 @@
+Assignment Title: "Netflix Movie Management Application"
+Objective:
+The objective of this assignment is to create a graphical user interface (GUI) application using Java Swing that allows users to input information about Netflix movies and display the entered information on the screen. Students will gain hands-on experience with GUI components, event handling, and managing user input.
+
+Assignment Details
+Scenario:
+You are tasked with building a simple GUI application for a Netflix Movie Management System. The application should allow the user to input information about movies, such as the title, genre, release year, and other attributes, and display the entered data on the screen when submitted.
+
+Requirements:
+GUI Layout:
+Create a JFrame titled "Netflix Movie Management".
+Use a layout manager (e.g., GridLayout, BorderLayout) to organize the components neatly.
+Include the following fields with corresponding JLabels and JTextFields for user input:
+Movie Title
+Genre
+Release Year
+Director
+Main Actor
+Main Actress
+Language
+Duration (in minutes)
+IMDb Rating
+Number of Seasons (for series)
+Number of Episodes (for series)
+Viewer Age Restriction
+Include a JButton labeled "Submit".
+Event Handling:
+Add an ActionListener to the "Submit" button to capture user input from all text fields.
+Data Validation:
+Validate the input to ensure:
+Fields like "Release Year" and "Duration" are numeric.
+IMDb Rating is a number between 0.0 and 10.0.
+Viewer Age Restriction is a positive number.
+Text fields like "Movie Title" and "Genre" are not empty.
+Display an error message (using JOptionPane) if validation fails.
+Display Output:
+Use a JTextArea below the input fields to display the entered movie information in a formatted manner when the "Submit" button is clicked.
+Clear Button:
+Include a JButton labeled "Clear" to reset all input fields and clear the JTextArea.
+Additional Features:
+Add a JComboBox for selecting the content type (e.g., "Movie", "Series").
+Display additional fields like "Number of Seasons" and "Number of Episodes" only when "Series" is selected.
+Deliverables:
+Java source code file (NetflixMovieGUI.java).
+Screenshot of the GUI with data entered.
+Screenshot of the output displayed in the JTextArea.
+Create a video (Provide URL) DO NOT ATTACH video of a demo of what you completed and how it works.
+Submit code to GitHub
+Sample Output:
+Input Screen:
+less
+
+Copy code
+
+Netflix Movie Management
+
+---------------------------------
+
+Title:            [   Inception         ]
+
+Genre:            [   Sci-Fi           ]
+
+Release Year:     [   2010             ]
+
+Director:         [   Christopher Nolan]
+
+Main Actor:       [   Leonardo DiCaprio]
+
+Main Actress:     [   Marion Cotillard ]
+
+Language:         [   English          ]
+
+Duration (min):   [   148              ]
+
+IMDb Rating:      [   8.8              ]
+
+Viewer Restriction: [  13              ]
+
+[Submit] [Clear]
+
+---------------------------------
+
+ 
+
+Output (Displayed in JTextArea):
+ 
+
+Movie Details:
+
+Title: Inception
+
+Genre: Sci-Fi
+
+Release Year: 2010
+
+Director: Christopher Nolan
+
+Main Actor: Leonardo DiCaprio
+
+Main Actress: Marion Cotillard
+
+Language: English
+
+Duration: 148 minutes
+
+IMDb Rating: 8.8
+
+Viewer Restriction: 13+
+
+ 
+
+Grading Criteria:
+Criteria
+
+Points
+
+GUI Design (12 Text Fields + Buttons)
+
+20
+
+Proper Layout and Component Alignment
+
+10
+
+Event Handling for Submit and Clear
+
+20
+
+Input Validation Implementation
+
+20
+
+Correct Display of Output in JTextArea
+
+20
+
+Additional Features (e.g., JComboBox)
+
+10
+
+ 
+
+Hints and Suggestions:
+Use meaningful variable names for all components.
+Organize your GUI layout for user-friendliness.
+Test edge cases for data validation.
+Use the JPanel class to group related components logically
