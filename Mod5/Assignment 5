@@ -1,0 +1,20 @@
+For this assignment, you will develop a C# website following the approach we used in class. Ensure that you complete all the requirements below:
+
+Navigation Bar Update:
+
+Create five header links at the top of the website.
+Replace the two custom headers that are currently in place with new ones.
+About Page:
+
+Add an About page that provides details about the application you're developing.
+Include relevant content and at least one image to enhance the page.
+Backend Logic Implementation:
+
+On two different pages, implement backend logic using conditional statements.
+The logic should dynamically output data to the front end based on conditions, similar to what we did in class.
+Version Control:
+
+Check in your completed code to a GitHub repository.
+Presentation:
+
+Be prepared to present your project remotely in a video (youTube, Vimeo etc;)
