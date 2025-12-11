@@ -1,0 +1,26 @@
+﻿@page
+@model MyWebApp.Pages.GradesModel
+@{
+    ViewData["Title"] = "Grades";
+}
+
+<h1>Grade Checker</h1>
+
+<p>
+    Enter a numeric grade to see the corresponding evaluation.
+</p>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="Score" class="form-label">Score (0-100)</label>
+        <input asp-for="Score" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Check Grade</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.ResultMessage))
+{
+    <div class="alert alert-info mt-3">
+        @Model.ResultMessage
+    </div>
+}

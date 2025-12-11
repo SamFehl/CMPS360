@@ -1,0 +1,24 @@
+﻿@page
+@model MyWebApp.Pages.WeatherModel
+@{
+    ViewData["Title"] = "Weather";
+}
+
+<h1>Weather Advice</h1>
+
+<p>Enter the current temperature in °F to get clothing and activity advice.</p>
+
+<form method="post">
+    <div class="mb-3">
+        <label asp-for="TemperatureF" class="form-label">Temperature (°F)</label>
+        <input asp-for="TemperatureF" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Get Advice</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Advice))
+{
+    <div class="alert alert-success mt-3">
+        @Model.Advice
+    </div>
+}
