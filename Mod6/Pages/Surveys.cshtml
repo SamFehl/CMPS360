@@ -1,0 +1,38 @@
+﻿@page
+@model Mod6.Pages.SurveysModel
+@{
+    ViewData["Title"] = "All Surveys";
+}
+
+<h1>All Surveys</h1>
+
+@if (!Model.Surveys.Any())
+{
+    <p>No survey data is currently available.</p>
+}
+else
+{
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Instructor</th>
+                <th>Rating</th>
+                <th>Comments</th>
+                <th>Submitted</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var s in Model.Surveys)
+        {
+            <tr>
+                <td>@s.CourseCode</td>
+                <td>@s.Instructor</td>
+                <td>@s.Rating.ToString("0.0")</td>
+                <td>@s.Comments</td>
+                <td>@s.CreatedAt.ToLocalTime().ToString("g")</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

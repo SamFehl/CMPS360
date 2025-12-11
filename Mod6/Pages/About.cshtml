@@ -1,0 +1,28 @@
+﻿@page
+@model Mod6.Pages.AboutModel
+@{
+    ViewData["Title"] = "About";
+}
+
+<h1>About This Project</h1>
+
+<p>
+    This web application is an individual mini-project for CMPS 360. 
+    It demonstrates how a C# ASP.NET Core Razor Pages application can 
+    consume a custom Node.js/TypeScript API hosted on Render.com.
+</p>
+
+<h3>Architecture</h3>
+<ul>
+    <li>C# Web Application (ASP.NET Core Razor Pages) hosted locally or on a cloud platform.</li>
+    <li>Custom API built with TypeScript and Node.js.</li>
+    <li>PostgreSQL database storing course survey data.</li>
+    <li>API hosted on Render.com and linked to a GitHub repository.</li>
+</ul>
+
+<h3>Technical Considerations</h3>
+<ul>
+    <li>The C# app uses <code>HttpClient</code> to call the API over HTTPS.</li>
+    <li>JSON data is deserialized into C# model classes using <code>System.Text.Json</code>.</li>
+    <li>Multiple pages (Home, All Surveys, Statistics) are all driven by the API data.</li>
+</ul>

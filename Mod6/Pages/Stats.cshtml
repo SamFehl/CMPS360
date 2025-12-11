@@ -1,0 +1,22 @@
+﻿@page
+@model Mod6.Pages.StatsModel
+@{
+    ViewData["Title"] = "Statistics";
+}
+
+<h1>Survey Statistics</h1>
+
+@if (Model.Summary == null)
+{
+    <p>Unable to load statistics.</p>
+}
+else
+{
+    <p>Total Surveys: @Model.Summary.TotalSurveys</p>
+    <p>Average Rating: @Model.Summary.AverageRating.ToString("0.0")</p>
+    <p>Most Reviewed Course: @Model.Summary.MostReviewedCourse</p>
+
+    <div class="alert alert-info mt-3">
+        @Model.RatingMessage
+    </div>
+}

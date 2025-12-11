@@ -1,0 +1,25 @@
+﻿@page
+@model Mod6.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h1>Course Survey Dashboard</h1>
+
+<p>This application displays course survey data from a custom API hosted on Render.</p>
+
+@if (Model.Summary == null)
+{
+    <p>Summary data is not available right now.</p>
+}
+else
+{
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title">Survey Summary</h5>
+            <p>Total Surveys: <strong>@Model.Summary.TotalSurveys</strong></p>
+            <p>Average Rating: <strong>@Model.Summary.AverageRating.ToString("0.0")</strong></p>
+            <p>Most Reviewed Course: <strong>@Model.Summary.MostReviewedCourse</strong></p>
+        </div>
+    </div>
+}
