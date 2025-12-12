@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Static Job Board</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; max-width: 960px; }
+    .job-card { border: 1px solid #ddd; padding: 16px; border-radius: 10px; margin-bottom: 14px; }
+    .meta { color: #555; margin-top: 8px; }
+    .meta span { display: inline-block; margin-right: 12px; }
+    a { color: #0b66c3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code { background: #f3f3f3; padding: 2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <h1>Static Job Board</h1>
+  <p>This is a static site used for scraping practice. Each job page uses the same HTML structure.</p>
+
+  <section id="job-list">
+    <article class="job-card" data-job-id="job-001">
+      <h2 class="job-title"><a class="job-link" href="./jobs/job-001.html">Junior Python Developer</a></h2>
+      <div class="meta">
+        <span class="company" data-field="company">North Star Analytics</span>
+        <span class="location" data-field="location">New York, NY</span>
+        <span class="posted" data-field="date_posted" data-posted="2025-12-01">Posted: Dec 1, 2025</span>
+      </div>
+      <p class="summary" data-field="summary">Work on ETL pipelines and reporting dashboards for internal teams.</p>
+      <ul class="tags" data-field="tags">
+        <li>Python</li><li>SQL</li><li>ETL</li>
+      </ul>
+    </article>
+
+    <article class="job-card" data-job-id="job-002">
+      <h2 class="job-title"><a class="job-link" href="./jobs/job-002.html">Web Scraping Intern</a></h2>
+      <div class="meta">
+        <span class="company" data-field="company">ScrapeCraft Labs</span>
+        <span class="location" data-field="location">Brooklyn, NY</span>
+        <span class="posted" data-field="date_posted" data-posted="2025-11-28">Posted: Nov 28, 2025</span>
+      </div>
+      <p class="summary" data-field="summary">Build scrapers and data cleaning scripts for public web datasets.</p>
+      <ul class="tags" data-field="tags">
+        <li>BeautifulSoup</li><li>Requests</li><li>Data Cleaning</li>
+      </ul>
+    </article>
+
+    <article class="job-card" data-job-id="job-003">
+      <h2 class="job-title"><a class="job-link" href="./jobs/job-003.html">Data Analyst (Entry)</a></h2>
+      <div class="meta">
+        <span class="company" data-field="company">Parkside Retail</span>
+        <span class="location" data-field="location">Queens, NY</span>
+        <span class="posted" data-field="date_posted" data-posted="2025-12-03">Posted: Dec 3, 2025</span>
+      </div>
+      <p class="summary" data-field="summary">Analyze sales trends and produce weekly KPI summaries.</p>
+      <ul class="tags" data-field="tags">
+        <li>Excel</li><li>SQL</li><li>Reporting</li>
+      </ul>
+    </article>
+
+    <article class="job-card" data-job-id="job-004">
+      <h2 class="job-title"><a class="job-link" href="./jobs/job-004.html">Backend Developer (Junior)</a></h2>
+      <div class="meta">
+        <span class="company" data-field="company">MetroTransit Tech</span>
+        <span class="location" data-field="location">Manhattan, NY</span>
+        <span class="posted" data-field="date_posted" data-posted="2025-12-05">Posted: Dec 5, 2025</span>
+      </div>
+      <p class="summary" data-field="summary">Help maintain APIs and services; focus on reliability and testing.</p>
+      <ul class="tags" data-field="tags">
+        <li>APIs</li><li>PostgreSQL</li><li>Testing</li>
+      </ul>
+    </article>
+
+    <article class="job-card" data-job-id="job-005">
+      <h2 class="job-title"><a class="job-link" href="./jobs/job-005.html">QA Tester (Junior)</a></h2>
+      <div class="meta">
+        <span class="company" data-field="company">Harbor Apps</span>
+        <span class="location" data-field="location">Jersey City, NJ</span>
+        <span class="posted" data-field="date_posted" data-posted="2025-11-30">Posted: Nov 30, 2025</span>
+      </div>
+      <p class="summary" data-field="summary">Execute test cases, write bug reports, and assist with automation.</p>
+      <ul class="tags" data-field="tags">
+        <li>QA</li><li>Automation</li><li>Jira</li>
+      </ul>
+    </article>
+  </section>
+
+  <footer>
+    <p>Tip: serve this folder using <code>python -m http.server</code> to scrape via HTTP.</p>
+  </footer>
+</body>
+</html>

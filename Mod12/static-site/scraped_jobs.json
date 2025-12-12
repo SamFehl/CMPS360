@@ -1,0 +1,132 @@
+[
+  {
+    "job_id": "job-001",
+    "title": "Junior Python Developer",
+    "company": "North Star Analytics",
+    "location": "New York, NY",
+    "date_posted": "2025-12-01",
+    "job_type": "Full-time",
+    "remote": "Hybrid",
+    "salary": "$70,000 - $85,000",
+    "salary_min": 70000,
+    "salary_max": 85000,
+    "experience_level": "Entry",
+    "contact_email": "jobs@northstar.example",
+    "description": "Build and maintain ETL jobs, write Python scripts, and support analytics reporting.",
+    "requirements": [
+      "Python basics",
+      "SQL fundamentals",
+      "Git workflow"
+    ],
+    "tags": [
+      "Python",
+      "SQL",
+      "ETL"
+    ],
+    "source_url": "http://localhost:8000/static-site/jobs/job-001.html"
+  },
+  {
+    "job_id": "job-002",
+    "title": "Web Scraping Intern",
+    "company": "ScrapeCraft Labs",
+    "location": "Brooklyn, NY",
+    "date_posted": "2025-11-28",
+    "job_type": "Internship",
+    "remote": "On-site",
+    "salary": "$18/hr",
+    "salary_min": 18,
+    "salary_max": null,
+    "experience_level": "Entry",
+    "contact_email": "interns@scrapecraft.example",
+    "description": "Create scrapers, normalize data, and document your approach.",
+    "requirements": [
+      "HTML basics",
+      "Python",
+      "Attention to detail"
+    ],
+    "tags": [
+      "BeautifulSoup",
+      "Requests",
+      "Data Cleaning"
+    ],
+    "source_url": "http://localhost:8000/static-site/jobs/job-002.html"
+  },
+  {
+    "job_id": "job-003",
+    "title": "Data Analyst (Entry)",
+    "company": "Parkside Retail",
+    "location": "Queens, NY",
+    "date_posted": "2025-12-03",
+    "job_type": "Full-time",
+    "remote": "Remote",
+    "salary": "$62,000",
+    "salary_min": 62000,
+    "salary_max": null,
+    "experience_level": "Entry",
+    "contact_email": "careers@parkside.example",
+    "description": "Build KPI reports and support weekly sales analytics.",
+    "requirements": [
+      "Excel",
+      "SQL",
+      "Communication"
+    ],
+    "tags": [
+      "Excel",
+      "SQL",
+      "Reporting"
+    ],
+    "source_url": "http://localhost:8000/static-site/jobs/job-003.html"
+  },
+  {
+    "job_id": "job-004",
+    "title": "Backend Developer (Junior)",
+    "company": "MetroTransit Tech",
+    "location": "Manhattan, NY",
+    "date_posted": "2025-12-05",
+    "job_type": "Full-time",
+    "remote": "Hybrid",
+    "salary": "$78,000 - $95,000",
+    "salary_min": 78000,
+    "salary_max": 95000,
+    "experience_level": "Junior",
+    "contact_email": "devjobs@metrotransit.example",
+    "description": "Maintain APIs, write tests, and support production deployments.",
+    "requirements": [
+      "REST basics",
+      "PostgreSQL",
+      "Testing"
+    ],
+    "tags": [
+      "APIs",
+      "PostgreSQL",
+      "Testing"
+    ],
+    "source_url": "http://localhost:8000/static-site/jobs/job-004.html"
+  },
+  {
+    "job_id": "job-005",
+    "title": "QA Tester (Junior)",
+    "company": "Harbor Apps",
+    "location": "Jersey City, NJ",
+    "date_posted": "2025-11-30",
+    "job_type": "Full-time",
+    "remote": "On-site",
+    "salary": "$55,000 - $65,000",
+    "salary_min": 55000,
+    "salary_max": 65000,
+    "experience_level": "Junior",
+    "contact_email": "qa@harborapps.example",
+    "description": "Run manual tests, file defects, and help with test automation.",
+    "requirements": [
+      "Bug reporting",
+      "Basic scripting",
+      "Communication"
+    ],
+    "tags": [
+      "QA",
+      "Automation",
+      "Jira"
+    ],
+    "source_url": "http://localhost:8000/static-site/jobs/job-005.html"
+  }
+]
